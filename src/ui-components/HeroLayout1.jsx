@@ -40,7 +40,7 @@ export default function HeroLayout1(props) {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.":
           { color: "rgba(255,255,255,1)" },
         Message: {},
-        Button: {},
+        Button: { justifyContent: "center" },
         HeroMessage: {},
         Left: { backgroundColor: "rgba(0,0,0,1)" },
         image: { alignSelf: "stretch", objectFit: "cover" },
@@ -164,7 +164,7 @@ export default function HeroLayout1(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="HELPFUL is a global open-source PLATFORM and COMMUNITY organizing talent, resources and production capabilities to address systemic challenges"
+              children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
               {...getOverrideProps(
                 overrides,
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
@@ -173,16 +173,16 @@ export default function HeroLayout1(props) {
           </Flex>
           <Button
             display="flex"
-            gap="0"
             direction="row"
             width="fit-content"
-            justifyContent="center"
+            justifyContent="flex-end"
             alignItems="center"
             shrink="0"
             position="relative"
+            padding="8px 16px 8px 16px"
             size="large"
             isDisabled={false}
-            variation="primary"
+            variation="link"
             children="Enroll"
             {...getOverrideProps(overrides, "Button")}
           ></Button>
