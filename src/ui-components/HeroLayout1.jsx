@@ -183,7 +183,7 @@ export default function HeroLayout1(props) {
             size="large"
             isDisabled={false}
             variation="primary"
-            children="Enroll Now"
+            children="Enroll"
             {...getOverrideProps(overrides, "Button")}
           ></Button>
         </Flex>
