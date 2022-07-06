@@ -18,9 +18,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HeroLayout1 />
-    
+
     <Flex direction={{ base: 'column', large: 'row' }}>
       <View width="100%" backgroundColor={{ base: 'orange', large: 'yellow' }}>
+        See!!
       </View>
       <View width="100%" backgroundColor={['orange', 'orange', 'orange', 'yellow']}>
         there!
