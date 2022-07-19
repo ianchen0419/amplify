@@ -21,7 +21,7 @@ Node.js version: `16.0.0`
 2. clone this project.
 3. change node.js version to `16.0.0`. [n](https://www.npmjs.com/package/n) is recommended for node.js version management.
 4. `cd` this folder.
-5. run `npm install`.
+5. run `npm ci`.
 6. install amplify CLI, run `sudo npm install -g @aws-amplify/cli`.
 7. link amplify and local folder, run `amplify pull --appId d2y40lxff9h57l --envName staging`. (If you use chrome on step 1., you need to change default brower to chrome before this step. Open System Preference → General → Default web browser → Select "Chrome")
 8. Login Amplify Studio by browser.
