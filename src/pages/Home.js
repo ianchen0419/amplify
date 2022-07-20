@@ -13,6 +13,7 @@ const Home = () => {
       direction="column"
       justifyContent="center"
       alignItems="center"
+      gap="2rem"
     >
         <Hero2 />
         <Features4x1 />

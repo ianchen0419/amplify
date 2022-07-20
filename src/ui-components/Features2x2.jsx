@@ -19,7 +19,6 @@ export default function Features2x2(props) {
       alignItems="center"
       position="relative"
       padding="40px 160px 40px 160px"
-      backgroundColor="rgba(239,240,240,1)"
       {...rest}
       {...getOverrideProps(overrides, "Features2x2")}
     >
@@ -56,13 +55,13 @@ export default function Features2x2(props) {
             alignSelf="stretch"
             position="relative"
             padding="160px 40px 40px 40px"
-            backgroundColor="rgba(255,255,255,1)"
+            backgroundColor="#EBFAED"
             {...getOverrideProps(overrides, "Frame 37429766594")}
           >
             <Text
               fontFamily="Inter"
               fontSize="24px"
-              fontWeight="400"
+              fontWeight="bold"
               color="rgba(13,26,38,1)"
               lineHeight="30px"
               textAlign="left"
@@ -113,13 +112,13 @@ export default function Features2x2(props) {
             alignSelf="stretch"
             position="relative"
             padding="160px 40px 40px 40px"
-            backgroundColor="rgba(255,255,255,1)"
+            backgroundColor="#EBFAED"
             {...getOverrideProps(overrides, "Frame 37329766597")}
           >
             <Text
               fontFamily="Inter"
               fontSize="24px"
-              fontWeight="400"
+              fontWeight="bold"
               color="rgba(13,26,38,1)"
               lineHeight="30px"
               textAlign="left"
@@ -183,13 +182,13 @@ export default function Features2x2(props) {
             alignSelf="stretch"
             position="relative"
             padding="160px 40px 40px 40px"
-            backgroundColor="rgba(255,255,255,1)"
+            backgroundColor="#EBFAED"
             {...getOverrideProps(overrides, "Frame 37429766601")}
           >
             <Text
               fontFamily="Inter"
               fontSize="24px"
-              fontWeight="400"
+              fontWeight="bold"
               color="rgba(13,26,38,1)"
               lineHeight="30px"
               textAlign="left"
@@ -240,13 +239,13 @@ export default function Features2x2(props) {
             alignSelf="stretch"
             position="relative"
             padding="160px 40px 40px 40px"
-            backgroundColor="rgba(255,255,255,1)"
+            backgroundColor="#EBFAED"
             {...getOverrideProps(overrides, "Frame 37329766604")}
           >
             <Text
               fontFamily="Inter"
               fontSize="24px"
-              fontWeight="400"
+              fontWeight="bold"
               color="rgba(13,26,38,1)"
               lineHeight="30px"
               textAlign="left"
