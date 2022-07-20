@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {Router, Routes, Route} from 'react-router-dom'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,6 +10,7 @@ import awsExports from './aws-exports';
 import "@aws-amplify/ui-react/styles.css";
 import { HeroLayout1 } from './ui-components';
 
+
 import { Flex, View } from '@aws-amplify/ui-react';
 
 Amplify.configure(awsExports);
@@ -18,11 +18,8 @@ Amplify.configure(awsExports);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-      </Routes>
-    </Router>
+    <App />
+  
   </React.StrictMode>
 );
 
