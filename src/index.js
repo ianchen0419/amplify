@@ -7,15 +7,27 @@ import reportWebVitals from './reportWebVitals';
 import { Amplify } from 'aws-amplify';
 import awsExports from './aws-exports';
 
+//Auth0 
+import { Auth0Provider } from '@auth0/auth0-react'
+import { getConfig } from './config';
+
 import "@aws-amplify/ui-react/styles.css";
 
 Amplify.configure(awsExports);
 
+const config = getConfig()
+const providerConfig = {
+  domain: config.domain,
+  clientId: config.clientId,
+  redirectUri: window.location.origin,
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <Auth0Provider {...providerConfig}>
     <App />
-  </React.StrictMode>
+  </Auth0Provider>
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function
