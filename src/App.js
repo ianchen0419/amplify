@@ -2,6 +2,7 @@ import './App.css';
 
 import NavBar from './ui-components/NavBar'
 import Home from './pages/Home'
+import Login from './pages/Login'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { View } from '@aws-amplify/ui-react'
 
@@ -25,6 +26,7 @@ function App() {
       </View>
       <Routes>
         <Route path="/" element={<Home />}/>
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
