@@ -8,10 +8,6 @@ import { Amplify } from 'aws-amplify';
 import awsExports from './aws-exports';
 
 import "@aws-amplify/ui-react/styles.css";
-import { HeroLayout1 } from './ui-components';
-
-
-import { Flex, View } from '@aws-amplify/ui-react';
 
 Amplify.configure(awsExports);
 

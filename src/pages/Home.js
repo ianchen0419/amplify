@@ -61,7 +61,7 @@ const Home = () => {
       alignItems="center"
       gap="2rem"
     >
-        <Hero2 />
+        <Hero2 overrides={Hero2Overides}/>
         <Features4x1 />
         <Flex>
             <TallCard isPaginated itemsPerPage={4} overrides={TallCardOverides}/>
