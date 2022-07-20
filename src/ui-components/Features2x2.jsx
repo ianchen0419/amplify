@@ -55,13 +55,12 @@ export default function Features2x2(props) {
             alignSelf="stretch"
             position="relative"
             padding="160px 40px 40px 40px"
-            backgroundColor="#EBFAED"
+            
             {...getOverrideProps(overrides, "Frame 37429766594")}
           >
             <Text
               fontFamily="Inter"
               fontSize="24px"
-              fontWeight="bold"
               color="rgba(13,26,38,1)"
               lineHeight="30px"
               textAlign="left"
@@ -112,13 +111,12 @@ export default function Features2x2(props) {
             alignSelf="stretch"
             position="relative"
             padding="160px 40px 40px 40px"
-            backgroundColor="#EBFAED"
+            
             {...getOverrideProps(overrides, "Frame 37329766597")}
           >
             <Text
               fontFamily="Inter"
               fontSize="24px"
-              fontWeight="bold"
               color="rgba(13,26,38,1)"
               lineHeight="30px"
               textAlign="left"
@@ -182,13 +180,11 @@ export default function Features2x2(props) {
             alignSelf="stretch"
             position="relative"
             padding="160px 40px 40px 40px"
-            backgroundColor="#EBFAED"
             {...getOverrideProps(overrides, "Frame 37429766601")}
           >
             <Text
               fontFamily="Inter"
               fontSize="24px"
-              fontWeight="bold"
               color="rgba(13,26,38,1)"
               lineHeight="30px"
               textAlign="left"
@@ -245,7 +241,6 @@ export default function Features2x2(props) {
             <Text
               fontFamily="Inter"
               fontSize="24px"
-              fontWeight="bold"
               color="rgba(13,26,38,1)"
               lineHeight="30px"
               textAlign="left"
