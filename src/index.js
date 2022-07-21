@@ -13,6 +13,8 @@ import { getConfig } from './config';
 
 import "@aws-amplify/ui-react/styles.css";
 
+import { BrowserRouter } from 'react-router-dom'
+
 Amplify.configure(awsExports);
 
 const config = getConfig()
@@ -25,9 +27,10 @@ const providerConfig = {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Auth0Provider {...providerConfig}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </Auth0Provider>
- 
 );
 
 // If you want to start measuring performance in your app, pass a function
