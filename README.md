@@ -10,8 +10,12 @@ Here is a main dashboard that you can adjust component property, data model.
 
 Neet account and password issued by me | [link](https://us-west-2.admin.amplifyapp.com/admin/login?appId=d2y40lxff9h57l&code=1eb6e1b7-230b-4554-8e35-2f7fcaffa077)
 
-## Online Webapp
-Check online webapp hosted by aws | [link](https://main.d2y40lxff9h57l.amplifyapp.com/)
+
+## Deployment
+After you commit to this github, please wait about 5 minutes and the commit content will upload to the online webapp.
+Here is the links of online.
+* main branch | [link] (https://main.d2y40lxff9h57l.amplifyapp.com/)
+* test branch | [link] (https://testing.d2y40lxff9h57l.amplifyapp.com/)
 
 ## Development Enviroment
 
