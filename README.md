@@ -14,8 +14,8 @@ Neet account and password issued by me | [link](https://us-west-2.admin.amplifya
 ## Deployment
 After you commit to this github, please wait about 5 minutes and the commit content will upload to the online webapp.
 Here is the links of online.
-* main branch | [link] (https://main.d2y40lxff9h57l.amplifyapp.com/)
-* test branch | [link] (https://testing.d2y40lxff9h57l.amplifyapp.com/)
+* main branch | [link](https://main.d2y40lxff9h57l.amplifyapp.com/)
+* test branch | [link](https://testing.d2y40lxff9h57l.amplifyapp.com/)
 
 ## Development Enviroment
 
