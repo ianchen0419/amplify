@@ -3,7 +3,9 @@ import './App.css';
 import NavBar from './ui-components/NavBar'
 import Home from './pages/Home'
 import Login from './pages/Login'
+import User from './pages/User';
 import {Routes, Route, useNavigate} from 'react-router-dom'
+import PrivateRoute from './components/Private-Route';
 import { View } from '@aws-amplify/ui-react'
 
 function App() {
@@ -41,6 +43,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/login" element={<Login />} />
+        <PrivateRoute path="/user" component={<User />} />
       </Routes>
     </div>
   );
