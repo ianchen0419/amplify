@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import User from './pages/User';
 import {Routes, Route, useNavigate} from 'react-router-dom'
-import PrivateRoute from './components/Private-Route';
+import PrivateRoute from './components/ProtectedRoute';
 import { View } from '@aws-amplify/ui-react'
 import ProtectedRoutes from './components/ProtectedRoutes';
 
@@ -24,7 +24,8 @@ function App() {
       "onClick": () => navigate('/login')
     }, 
     "Applicants":{
-      "children": ""
+      "children": "User", 
+      "onClick": () => navigate('/user')
     },
     "Company":{
       "children": ""
