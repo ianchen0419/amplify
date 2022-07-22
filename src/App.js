@@ -7,6 +7,7 @@ import User from './pages/User';
 import {Routes, Route, useNavigate} from 'react-router-dom'
 import PrivateRoute from './components/Private-Route';
 import { View } from '@aws-amplify/ui-react'
+import ProtectedRoutes from './components/ProtectedRoutes';
 
 function App() {
   let navigate = useNavigate()
@@ -43,7 +44,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/login" element={<Login />} />
-        <PrivateRoute path="/user" component={<User />} />
+        <Route element={<ProtectedRoutes />}>
+          <Route path="/user" element={<User />} />
+        </Route>
       </Routes>
     </div>
   );
